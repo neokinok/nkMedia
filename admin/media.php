@@ -27,10 +27,7 @@ function getDBFields($id) {
 <h1><?=$_SESSION['username']?> Media</h1>
 <?
  include "tiny_menu.php";
-
-?>
-<input style="margin-left:10px;float:left" type="button" value="Add" onclick="document.location='http://<?=$_SERVER['HTTP_HOST']?>/admin/media.php?_=i'"><br><br><br>
-<?
+echo "<br><br>";
 if ($_GET['_']=="d") {
 	message("video deleted successfuly.");
 	$query="delete from nkm_media where id=".$_GET['id'];
@@ -70,6 +67,7 @@ if ($_GET['_']=="d") {
 	if (!$result) echo mysql_error($result);
 	echo "<br>New media has been inserted successfuly.<br><br>";
 } else {
+  ?><input style="margin-left:10px;float:left" type="button" class="button" value="Add" onclick="document.location='http://<?=$_SERVER['HTTP_HOST']?>/admin/media.php?_=i'"><br><br><br><?
   include "media_browser.php";
 
 }

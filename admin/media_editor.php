@@ -79,9 +79,9 @@ include "../includes/headers.php";
 	}
 	if ($_GET['_']=="e") {
 		echo "</table>
-		 <br><br><input type='button' style='margin-left: 0px' value='Cancel' onclick=\"document.location='/admin/media.php'\">
-		 <input type='submit' style='margin-left: 170px' value='Save'>";
-		echo "<input type='button' value='delete this video' style='float:right;margin-right:185px' onclick=\"location.href='?_=d&id={$row['id']}'\">";
+		 <br><br><input class='button' type='button' style='margin-left: 0px' value='Cancel' onclick=\"document.location='/admin/media.php'\">
+		 <input class='button' type='submit' style='margin-left: 170px' value='Save'>";
+		echo "<input class='button' type='button' value='delete this video' style='color:#f00;border:1px solid #f00;float:right;margin-right:185px' onclick=\"location.href='?_=d&id={$row['id']}'\">";
 	} else if ($_GET['_']=="i") {
 		echo "</table><br><br><input type='submit' style='' value='Insert'>";
 

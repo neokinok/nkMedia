@@ -139,10 +139,11 @@ table td.nopad
 	padding-right: 5%;
 	}
 
-span.button {
+input[type=button],.button {
 	cursor:pointer;
 	cursor:hand;
 	color:#000;
+	padding:5px !important;
 }
 td.center {
 	text-align:center;
