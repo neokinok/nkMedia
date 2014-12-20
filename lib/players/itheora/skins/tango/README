@@ -1,0 +1,64 @@
+*******************************************************
+*                                                     *
+*    Tango skin (tango_classic v3.0) for ITheora      *
+*                                                     *
+*********************************** by mischamajskij **
+
+1) INSTALLATION - USE
+
+To install, simply unpack this archive in the "skins" directory of your ITheora installation.
+
+To use the skin, add the argument "s=tango". To disable some buttons simply delete the relative icons from the "boutons" folder,
+or use the "d=" argument (o: options, s: share, f: fullscreen, d: download). See http://itheora.org/?p=install for further reference.
+
+
+2) CREDITS - LICENSE
+
+ITheora is released under GPL 3.0.
+
+Origin, license info and reference sites for the single icons:
+
+- Tango Desktop Project (formerly CC-by-sa, now public domain)
+(http://tango.freedesktop.org/Tango_Desktop_Project)
+
+- GNOME 2.18 icon set (GPL 2)
+(http://art.gnome.org/themes/icon/1352)
+
+- GTK stock icons (GPL 2)
+(http://www.gtk.org)
+
+- Jesús David's bittorrent icon (probably CC-by-sa)
+(http://jesusda.deviantart.com)
+
+- Olivier Charavel's Java icon (slightly retouched by me) (probably CC-by-sa)
+(http://sekkyumu.deviantart.com)
+
+- Hylke Bons's clock icon from Pidgin's set (GPL 2)
+(http://www.bomahy.nl/hylke/blog)
+
+- Eckhard M Jaeger's RSS feed icon (probably CC-by-sa)
+(http://my.opera.com/area42/blog)
+
+- unit66's Miro icon, severely modified by me (CC-by-sa 3.0)
+(http://unit66.deviantart.com)
+
+Many thanks to all the original authors.
+
+- VLC, Wikipedia and TheoraSea icons are mine (double licensing: CC-by-sa or GPL 2 or 3 at your choice)
+
+- null.jpg and vorbis.jpg are in fact png files; they both include new hi-res icons from gnome-icon-theme drawn by Lapo Calamandrei and
+Ulisse Perussin; they are currently released under GPL 2. Many thanks to Jakub Steiner as well.
+Small sizes of the above have also been used for the "share" button and for the ogv/ogg icon in the download frame.
+For reference, see http://git.gnome.org/cgit/gnome-icon-theme/log/?h=one-canvas
+
+- loader.gif is the same as in ITheora default skin, by Aymeric Menguy (GPL 3)
+
+- other icons have been drawn by me and often include portions of icons from the above projects
+
+
+3) AUTHOR
+
+All other graphics in this skin and the design itself are by mischamajskij; they are distributed under a double license:
+CC-by-sa or GPL 2 or 3 at your choice.
+
+Please contact me on my DA page for requests (http://mischamajskij.deviantart.com/).

@@ -1,0 +1,9 @@
+<?php
+$ftp_host="localhost";
+$ftp_username="ftp_username"; 
+$ftp_pass="ftp_pass"; 
+$ftp_prefix=""; 
+$ftp_dir="/httpdocs/players/itheora/data"; 
+$admin_username="admin"; 
+$admin_pass="password"; 
+?>

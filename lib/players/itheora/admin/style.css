@@ -1,0 +1,147 @@
+body {
+	background-color: #fff;
+	position: absolute;
+	margin:0px;
+	padding : 0px;
+	font-family:Arial, Geneva, Helvetica, sans-serif;
+	width:100%;
+	font-size:12px;
+	color:#4C4C4C;
+}
+
+#header {
+	height:65px;
+	background:url("./images/header.png") repeat-x #30adfc ;
+}
+
+#gauche {
+	float : left;
+	width:220px;
+	background:transparent url(./images/sidebar.gif) repeat-x left top;
+}
+
+#menu { margin-right:5px; }
+
+#menu p {
+	font-family:"Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	text-transform:uppercase;
+	text-align:right;
+	color:#c0c0c0;
+	border-bottom:1px solid #cdcdcd;
+	margin-bottom:8px;
+}
+
+#menu p a{
+	color:#c0c0c0;
+	background:none;
+	text-decoration:none;
+}
+
+#menu p a:hover{
+	background:none;
+	text-decoration:none;
+	color:#FF6600;
+}
+
+#menu ul{
+	text-align:right;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#407fac;
+	list-style-type:none;
+}
+
+#menu ul li a{
+	color:#407fac;
+	text-decoration:none;
+	display:block;
+	border-right:4px solid #e5e5e5;  
+}
+
+#menu ul li a:hover{
+	background:#fff;
+	text-decoration:none;
+	border-right:4px solid #999999;  
+	color:#407fac;
+}
+
+#article {
+	margin-left : 222px;
+	min-height : 650px;
+	background:transparent url(./images/fond_article.png) repeat-x left top;
+	border-left:1px dotted #ffffff;
+}
+
+#contenu {
+	padding:15px;
+	text-align:justify;
+}
+
+#footer {
+	padding:5px 25px ;
+	text-align: left;
+	background:url("./images/footer.png") repeat-x left bottom #0ba6eb;
+	color:#fff;
+}
+
+#footer p{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+
+#footer a{
+	font-weight: bold;
+	color:#fff;
+	text-decoration:none;
+}
+
+
+#footer a:hover{
+	font-weight: bold;
+	color:#fff;
+	text-decoration:underline;
+}
+
+
+blockquote, .codesrc {
+	margin-left: 40px;
+	margin-right: 40px;
+	padding : 5px;
+	height:80px;
+	text-align: left;
+	overflow: auto;
+	color: #000000;
+	background-color: #dbf2fc;
+}
+ 
+h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	color:#3399cc;
+	display:block;
+}
+
+h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	font-style: italic;
+	color:#3399cc;
+	display:block;
+}
+
+
+p { line-height : 18px;}
+
+a{ color:#407fac; text-decoration:none; }
+
+a:hover{ text-decoration:underline; }
+
+img { border: none; vertical-align : middle; }
+
+.indent { margin-left : 50px; margin-top : 5px; margin-bottom : 5px; }
+
+
