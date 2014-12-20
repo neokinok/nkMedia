@@ -64,7 +64,13 @@ while (($file = readdir($dh)) !== false&&$i<$max) {
 		                if (!$result) {echo mysql_error().$insert;exit;}
 				fwrite($flog,"OK\n");
 		        } else {
-				fwrite($flog,"Thumb can not be created.\n");
+				fwrite($flog,"Thumb can not be created. Moving file to invalid/\n");
+				$instruccio='mkdir -p '.$dir.'/invalid/';
+				exec_cmd($instruccio,"dkd8de8d8edewWeuDh323jd");
+	                        $instruccio='chmod 777 -R '.$dir.'/invalid/';
+           	                exec_cmd($instruccio,"dkd8de8d8edewWeuDh323jd");
+				$instruccio='mv '.$dir.'/'.$file.' '.$dir.'/invalid/';
+	                        exec_cmd($instruccio,"dkd8de8d8edewWeuDh323jd");
 			}
 		}
 

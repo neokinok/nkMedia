@@ -9,7 +9,31 @@ with the collaboration of Daniel Miracle <daniel@neokinok.tv>
 
 Report bugs to <j.berenguer@intergrid.cat>
 
+
+LIST OF FEATURES
+
+- automaticaly loads video files from /mediabase/ directory and creates its database entry
+- thumbnail video automatic generation and manual replacement
+- non playable files are moved to invalid/ directory automaticaly
+- metadata for player html5
+- multilanguage support
+- live streaming mode
+- personalized start page (live or mediabase)
+- channel administration interface
+- customizable channel header picture, background, colors, etc.
+- different players available
+- 3 different video sources (platform) : local, url or embed
+- count video views
+- custom sort order of mediabase videos
+- speed video control for html5 player
+- twitter widget for live page
+- administration of mediabase, edit metadata, etc. 
+
+
 More information:
 http://www.experimentaltv.org
+
+
+
 
 =======================================================================
