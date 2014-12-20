@@ -1,0 +1,35 @@
+=======================================================================
+TODO LIST
+
+
+- experimentaltv.org:
+done...
+Open Streaming Project.
+Live streaming, Streaming on demand
+Mediabase
+Mediabase interface...
+
+Pagina principal experimental
+-----------------------------
+
+- wiki docs project (?), jo l'anoenaria About i posaria informacio sobre que es i que no es experimentaltv.org
+- donate finish
+- signup que envii mails
+- nuvol de tags a la pagina principal d'experimental per seleccionar videos per tematica
+- help developing, podem posar l'enllaçagithub 
+
+Funcions de canal
+-----------------
+
+- metadata: funcions link, image, subtitle, transcription, comment (add cuepoint)
+- auto save live streaming video
+- upload video + autoconvert webm,mp4,ogv 
+- PRODUCER: add cuepoint metadata : pics, text
+
+- live stats: online users,pic viewers,streaming info... 
+- live elements : video, twitter, chat, sync-images, subtitles
+- ondemand elements : video, comments(text html), sync-images, subtitles
+
+- future: html5 capture live video & live streaming & save stream + cuepoint live metadata
+- social networks share options
+- embed better options

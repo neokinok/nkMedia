@@ -1,0 +1,23 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_URI} ^/lib/ [OR]
+RewriteCond %{REQUEST_URI} ^/wiki/ [OR]
+RewriteCond %{REQUEST_URI} ^/includes/ [OR]
+RewriteCond %{REQUEST_URI} ^/players/ [OR]
+RewriteCond %{REQUEST_URI} ^/sources/ [OR]
+RewriteCond %{REQUEST_URI} ^/lib/chat [OR]
+RewriteCond %{REQUEST_URI} ^/lib/xat [OR]
+RewriteCond %{REQUEST_URI} ^/img/ [OR]
+RewriteCond %{REQUEST_URI} ^/admin/ [OR]
+RewriteCond %{REQUEST_URI} ^/mediabase/ [OR]
+RewriteCond %{REQUEST_URI} ^/css/
+RewriteRule .* - [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)?$ ?u=$1 [L,NC]
+RewriteRule ^([^/]+)/([^/]+)/?$ ?u=$1&s=$2 [L,NC]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/?$ ?u=$1&s=$2&v=$3 [L,NC]
+
+</IfModule>
+

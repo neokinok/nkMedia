@@ -1,0 +1,32 @@
+=======================================================================
+nkMedia v.1.0
+
+
+REQUIREMENTS
+
+- Apache2
+- PHP5
+- Icecast2
+- libssh2
+
+
+INSTALLATION
+
+1. Download the sources
+
+git clone https://github.com/neokinok/experimentaltv
+
+2. Fix folder permissions
+
+   chmod 777 log 
+   chmod 777 mediabase -R
+   chmod 777 lib/itheora/data -R
+
+3. Create a database and import SQL
+
+  mysql -uUSERNAME -pPASSWORD DATABASE_NAME < admin/sql/mediabase.sql
+
+4. Change configuration.php file, updating your database preferences
+
+
+
